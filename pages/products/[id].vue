@@ -10,10 +10,10 @@
       <div
         class="rounded overflow-hidden border w-full lg:w-10/12 md:w-6/12 bg-white mx-3 md:mx-0 lg:mx-0"
       >
-        <div class="grid grid-cols-3">
+        <div class="grid grid-cols-3 sm:grid-cols-1 lg:grid-cols-3">
           <div>
             <div class="w-full flex justify-between p-3">
-              <div class="flex">
+              <div class="flex sm:mx-auto lg:ml-5">
                 <div
                   class="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden"
                 >
@@ -28,7 +28,7 @@
               ></span> -->
             </div>
             <img
-              class="rounded-lg w-96 h-96 bg-cover"
+              class="rounded-lg w-96 h-96 bg-cover sm:mx-auto"
               :src="meal.meals[0].strMealThumb"
             />
             <!-- <div class="pt-2">
