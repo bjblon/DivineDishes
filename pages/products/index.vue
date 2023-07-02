@@ -25,7 +25,7 @@
 
       <!-- {{ meals }} -->
       <section class="ml-16 mt-10">
-        <div class="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 sm:mr-16 lg:mr-auto sm:gap-4">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 sm:mr-16 lg:mr-auto sm:gap-4">
           <div v-for="(p, index) in meals.meals" :key="index">
             <NuxtLink :to="`/products/${p.idMeal}`">
               <ProductCard :product="p" />
